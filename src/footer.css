@@ -1,0 +1,25 @@
+.footer {
+  background-color: #333; /* Fundal închis pentru footer */
+  color: #fff; /* Text alb pentru contrast */
+  padding: 20px; /* Spațiu în interiorul footerului */
+  text-align: center; /* Aliniere centrală */
+}
+
+.footer-info {
+  margin-bottom: 20px; /* Spațiu între informații și secțiunea socială */
+}
+
+.footer-social {
+  display: flex; /* Flex pentru aliniere orizontală */
+  justify-content: center; /* Aliniere centrală */
+}
+
+.footer-social a {
+  color: #fff; /* Text alb pentru linkuri */
+  text-decoration: none; /* Fără sublinieri */
+  margin: 0 10px; /* Spațiu între linkuri */
+}
+
+.footer-social a:hover {
+  text-decoration: underline; /* Subiniere la hover */
+}

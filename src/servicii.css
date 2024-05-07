@@ -1,0 +1,36 @@
+#servicii {
+  padding: 40px; /* Spațiu în jurul secțiunii */
+  background-color: #f9f9f9; /* Fundal deschis */
+  color: #333; /* Text închis pentru contrast */
+  font-family: Arial, sans-serif;
+}
+
+.service-list {
+  display: flex; /* Folosește flex pentru aliniere */
+  flex-wrap: wrap; /* Permite wrap pentru elemente multiple */
+  gap: 20px; /* Spațiu între elemente */
+}
+
+.service-item {
+  flex: 1 1 200px; /* Elementele se extind și se micșorează */
+  min-width: 200px; /* Lățimea minimă pentru elemente */
+  max-width: 300px; /* Lățimea maximă pentru elemente */
+  background-color: #fff; /* Fundal alb pentru item */
+  padding: 20px; /* Spațiu în interiorul item-ului */
+  border-radius: 10px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru un efect vizual plăcut */
+}
+
+.service-item h3 {
+  margin-top: 0; /* Elimină spațiul de deasupra titlului */
+}
+
+.service-item p {
+  line-height: 1.6; /* Spațiere între linii pentru lizibilitate */
+}
+.about-us-image img {
+  max-width: 500px; /* Lățimea maximă pentru imagine */
+  height: auto; /* Păstrează raportul de aspect */
+  border-radius: 10px; /* Colțuri rotunjite pentru estetică */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru un efect vizual plăcut */
+}

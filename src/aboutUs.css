@@ -1,0 +1,115 @@
+.about-us {
+  padding: 40px; /* Spațiu în jurul secțiunii */
+  background-color: #f9f9f9; /* Fundal deschis */
+  color: #333; /* Text închis */
+  font-family: Arial, sans-serif;
+}
+
+.about-us h2 {
+  font-size: 2em; /* Mărimea titlului */
+  color: #222; /* Culoare mai închisă pentru titlu */
+}
+
+.about-us p {
+  line-height: 1.6; /* Spațiere între linii pentru lizibilitate */
+}
+
+.team {
+  margin-top: 30px; /* Spațiu deasupra secțiunii pentru echipă */
+}
+
+.team h3 {
+  font-size: 1.5em; /* Mărimea titlului pentru echipă */
+  color: #555; /* Culoare mai închisă */
+}
+
+.team ul {
+  list-style-type: disc; /* Tipul de puncte pentru listă */
+  padding-left: 20px; /* Spațiu pentru indentare */
+}
+
+.history {
+  margin-top: 30px; /* Spațiu deasupra secțiunii pentru istoric */
+}
+
+.history h3 {
+  font-size: 1.5em; /* Mărimea titlului pentru istoric */
+  color: #555; /* Culoare mai închisă */
+}
+
+ul {
+  list-style-type: disc; /* Tipul listei */
+}
+
+ul li {
+  margin-bottom: 10px; /* Spațiu între elementele listei */
+}
+
+.about-us {
+  padding: 40px; /* Spațiu în jurul secțiunii */
+  background-color: #f9f9f9; /* Fundal deschis */
+  color: #333; /* Text închis */
+  font-family: Arial, sans-serif;
+}
+
+.about-us h2 {
+  font-size: 2em; /* Dimensiunea titlului */
+  color: #222; /* Culoare mai închisă pentru titlu */
+}
+
+.about-us p {
+  line-height: 1.6; /* Spațiere între linii */
+}
+
+.about-us-image {
+  text-align: center; /* Aliniere centrală pentru imagine */
+  margin: 20px 0; /* Spațiere deasupra și dedesubtul imaginii */
+}
+
+.about-us-image img {
+  max-width: 100%; /* Limitează dimensiunea imaginii */
+  height: auto; /* Păstrează aspectul */
+}
+
+.team {
+  margin-top: 30px; /* Spațiu înainte de echipă */
+}
+
+.team h3 {
+  font-size: 1.5em; /* Dimensiunea titlului pentru echipă */
+  color: #555; /* Culoare mai închisă */
+}
+
+.team ul {
+  list-style-type: disc; /* Tipul de puncte pentru listă */
+  padding-left: 20px; /* Indentare pentru listă */
+}
+
+.team ul li {
+  margin-bottom: 10px; /* Spațiere între elementele listei */
+}
+
+.history {
+  margin-top: 30px; /* Spațiu înainte de secțiunea istoric */
+}
+
+.history h3 {
+  font-size: 1.5em; /* Dimensiunea titlului pentru istoric */
+  color: #555; /* Culoare mai închisă */
+}
+
+.history p {
+  line-height: 1.6; /* Spațiere între linii */
+}
+
+.about-us-image {
+  text-align: center; /* Aliniere centrală pentru imagine */
+  margin: 20px 0; /* Spațiu deasupra și dedesubtul imaginii */
+}
+
+.about-us-image img {
+  max-width: 500px; /* Lățimea maximă pentru imagine */
+  height: auto; /* Păstrează raportul de aspect */
+  border-radius: 10px; /* Colțuri rotunjite pentru estetică */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru un efect vizual plăcut */
+}

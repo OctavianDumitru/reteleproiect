@@ -1,0 +1,39 @@
+#contact {
+  padding: 40px; /* Spațiu în jurul secțiunii */
+  background-color: #f9f9f9; /* Fundal deschis */
+  color: #333; /* Text închis pentru contrast */
+}
+
+.contact-info {
+  margin-bottom: 20px; /* Spațiu între informațiile de contact și formular */
+}
+
+form {
+  display: flex; /* Aliniere flex pentru elementele din formular */
+  flex-direction: column; /* Direcție verticală */
+}
+
+form input,
+form textarea {
+  padding: 10px; /* Spațiu în interiorul câmpurilor */
+  border: 1px solid #ccc; /* Margine gri deschis */
+  border-radius: 5px; /* Colțuri rotunjite */
+  margin-bottom: 20px; /* Spațiu între câmpuri */
+}
+
+form button {
+  background-color: #333; /* Fundal închis pentru buton */
+  color: #fff; /* Text alb */
+  border: none; /* Fără margini */
+  padding: 10px 20px; /* Spațiu în interiorul butonului */
+  border-radius: 5px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor pointer */
+}
+
+form button:hover {
+  background-color: #555; /* Culoare la hover */
+}
+
+.map-container {
+  margin-top: 20px; /* Spațiu înainte de hartă */
+}

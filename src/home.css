@@ -1,0 +1,111 @@
+/* Stiluri de bază */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Fundal deschis */
+  color: #333; /* Text închis pentru contrast */
+}
+
+/* Stil pentru antet și navigare */
+header {
+  background-color: #333; /* Fundal întunecat pentru antet */
+  color: #fff; /* Text alb pentru antet */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none; /* Fără puncte de listă */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline; /* Elemente în linie */
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none; /* Fără sublinieri */
+  color: #fff; /* Text alb */
+  font-weight: bold; /* Text îngroșat */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Subiniere la hover */
+}
+
+/* Stil pentru secțiuni */
+section {
+  padding: 40px; /* Spațiu în jurul secțiunilor */
+}
+
+section#despre-noi {
+  background-color: #eaeaea; /* Fundal ușor pentru secțiuni */
+}
+
+section#servicii {
+  background-color: #dcdcdc; /* Fundal gri deschis */
+}
+
+section#echipa {
+  background-color: #f0f0f0; /* Fundal gri deschis */
+}
+
+section#blog {
+  background-color: #eaeaea; /* Fundal ușor */
+}
+
+section#contact {
+  background-color: #dcdcdc; /* Fundal gri deschis */
+}
+
+/* Stil pentru formularul de contact */
+form {
+  margin-top: 20px; /* Spațiu deasupra formularului */
+}
+
+label {
+  display: block; /* Etichetele sunt blocuri */
+  margin-top: 10px; /* Spațiu deasupra etichetelor */
+}
+
+input,
+textarea {
+  width: 100%; /* Folosim tot spațiul disponibil */
+  padding: 10px; /* Spațiu în interiorul elementelor */
+  border: 1px solid #ccc; /* Border gri deschis */
+  border-radius: 5px; /* Colțuri rotunjite */
+}
+
+button {
+  background-color: #333; /* Buton închis la culoare */
+  color: #fff; /* Text alb */
+  border: none; /* Fără margini */
+  padding: 10px 20px; /* Spațiu în interiorul butonului */
+  border-radius: 5px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor pointer */
+}
+
+button:hover {
+  background-color: #555; /* Schimbă culoarea la hover */
+}
+
+/* Stil pentru subsol */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Fundal închis pentru subsol */
+  color: #fff; /* Text alb */
+}
+
+footer a {
+  color: #fff; /* Legături albe */
+  text-decoration: none; /* Fără sublinieri */
+  margin-right: 15px; /* Spațiu între legături */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subiniere la hover */
+}

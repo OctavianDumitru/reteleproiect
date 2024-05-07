@@ -1,0 +1,26 @@
+#blog {
+  padding: 40px; /* Spațiu în jurul secțiunii */
+  background-color: #f9f9f9; /* Fundal deschis */
+  color: #333; /* Text închis pentru contrast */
+}
+
+.blog-post {
+  margin-bottom: 30px; /* Spațiu între postări */
+  background-color: #fff; /* Fundal alb pentru postare */
+  padding: 20px; /* Spațiu în interiorul postării */
+  border-radius: 10px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru un efect vizual plăcut */
+}
+
+.blog-post h3 {
+  font-size: 1.5em; /* Dimensiunea titlului */
+}
+
+.blog-post .date {
+  font-size: 0.9em; /* Dimensiunea pentru data publicării */
+  color: #777; /* Culoare mai deschisă pentru data publicării */
+}
+
+.blog-post p {
+  line-height: 1.6; /* Spațiere între linii pentru lizibilitate */
+}

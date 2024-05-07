@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: #333; /* Fundal închis pentru meniu */
+  padding: 10px;
+}
+
+ul {
+  list-style: none; /* Fără puncte în listă */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Elemente în linie */
+  justify-content: space-around; /* Distribuție uniformă */
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  color: #fff; /* Text alb */
+  text-decoration: none; /* Fără sublinieri */
+  font-weight: bold; /* Text îngroșat */
+}
+
+a:hover {
+  text-decoration: underline; /* Subiniere la hover */
+}
+
+header {
+  background-color: #333; /* Fundal închis pentru titlu */
+  color: #fff; /* Text alb pentru contrast */
+  text-align: center; /* Aliniere centrală */
+  padding: 20px; /* Spațiu în jurul titlului */
+}
+
+header h1 {
+  margin: 0; /* Fără margini pentru titlu */
+  font-size: 2em; /* Dimensiunea titlului */
+}
+
+nav {
+  background-color: #444; /* Fundal pentru nav */
+  padding: 10px;
+}
+
+ul {
+  list-style: none; /* Fără puncte */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Elemente în linie */
+  justify-content: space-around; /* Distribuție uniformă */
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  color: #fff; /* Text alb */
+  text-decoration: none; /* Fără sublinieri */
+  font-weight: bold; /* Text îngroșat */
+}
+
+a:hover {
+  text-decoration: underline; /* Subiniere la hover */
+}
